@@ -31,7 +31,7 @@
           "title": "ArgentBank",
           "description": "Implémenter le front-end d'une application bancaire avec React",
           "imageSrc": "https://i.imgur.com/gk2eh9z.png",
-          "url": "https://github.com/Lisadep/ArgentBank-website"
+          "url": "https://argent-bank-app.vercel.app/"
       },
       {
           "id": "2",
