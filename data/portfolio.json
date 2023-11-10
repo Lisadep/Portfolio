@@ -38,7 +38,7 @@
           "title": "724events",
           "description": "Débugger le site d'une agence d'évènementiel",
           "imageSrc": "https://i.imgur.com/FVvQHmF.png",
-          "url": "https://github.com/Lisadep/724events"
+          "url": "https://724events-app.vercel.app/"
       },
       {
           "id": "3",
@@ -66,7 +66,7 @@
           "title": "Print It",
           "description": "Premiers pas sur le langage JavaScript",
           "imageSrc": "https://i.imgur.com/rYvdlBJ.png",
-          "url": "https://lisadep.github.io/Print-it"
+          "url": "https://lisadep.github.io/Print-it/"
       },
       {
           "id": "6ddd76bb-90ea-4861-8f7f-ed5d76791b17",
@@ -80,7 +80,7 @@
           "title": "Booki",
           "description": "Créer la page d'accueil d'une agence de voyage avec HTML & CSS",
           "imageSrc": "https://i.imgur.com/PsSCjpr.png",
-          "url": "https://github.com/Lisadep/Booki"
+          "url": "https://lisadep.github.io/Booki/"
       }
   ],
   "services": [
