@@ -1,14 +1,14 @@
 import { useRef } from "react";
 import Header from "../components/Header";
-import ServiceCard from "../components/ServiceCard";
+// import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
 import { useIsomorphicLayoutEffect } from "../utils";
 import { stagger } from "../animations";
 import Footer from "../components/Footer";
 import Head from "next/head";
-import Button from "../components/Button";
-import Link from "next/link";
+// import Button from "../components/Button";
+// import Link from "next/link";
 import Cursor from "../components/Cursor";
 
 // Local Data
@@ -103,6 +103,7 @@ export default function Home() {
                 img={project.imageSrc}
                 name={project.title}
                 description={project.description}
+                details={project.details}
                 onClick={() => window.open(project.url)}
               />
             ))}

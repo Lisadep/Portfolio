@@ -4,7 +4,7 @@ import Cursor from "../components/Cursor";
 import Header from "../components/Header";
 // import ProjectResume from "../components/ProjectResume";
 import Socials from "../components/Socials";
-import Button from "../components/Button";
+// import Button from "../components/Button";
 import { useTheme } from "next-themes";
 // Data
 import { name, showResume } from "../data/portfolio.json";
@@ -24,13 +24,13 @@ const Resume = () => {
   }, []);
   return (
     <>
-      {process.env.NODE_ENV === "development" && (
+      {/* {process.env.NODE_ENV === "development" && (
         <div className="fixed bottom-6 right-6">
           <Button onClick={() => router.push("/edit")} type={"primary"}>
             Edit Resume
           </Button>
         </div>
-      )}
+      )} */}
       {data.showCursor && <Cursor />}
       <div
         className={`container mx-auto mb-10 ${
@@ -47,9 +47,12 @@ const Resume = () => {
             >
               <h1 className="text-3xl font-bold">{name}</h1>
               <h2 className="text-xl mt-5">{resume.tagline}</h2>
-              <h2 className="w-4/5 text-xl mt-5 opacity-50">
-                {resume.description}
-              </h2>
+              <h3 className="w-4/5 text-l mt-5 opacity-70">{resume.description}</h3>
+              <h3 className="w-4/5 text-l mt-5 opacity-70">{resume.experienceOne}</h3>
+              <h3 className="w-4/5 text-l mt-5 opacity-70">{resume.experienceTwo}</h3>
+              <h3 className="w-4/5 text-l mt-5 opacity-70">{resume.experienceThree}</h3>
+              <h3 className="w-4/5 text-l mt-5 opacity-70">{resume.experienceFour}</h3>
+              <h3 className="w-4/5 text-l mt-5 opacity-70">{resume.experienceFive}</h3>
               <div className="mt-2">
                 <Socials />
               </div>

@@ -1,6 +1,6 @@
 {
   "name": "Lisa de Pierrepont",
-  "headerTaglineOne": "Bonjour 👋",
+  "headerTaglineOne": "Bonjour",
   "headerTaglineTwo": "Vous êtes sur mon portfolio",
   "headerTaglineThree": "Je suis intégratrice web",
   "headerTaglineFour": "et passionée d'informatique.",
@@ -30,56 +30,64 @@
           "id": "1",
           "title": "ArgentBank",
           "description": "Implémenter le front-end d'une application bancaire avec React",
-          "imageSrc": "https://i.imgur.com/gk2eh9z.png",
+          "details": "Ce projet consistait à travailler avec React et Redux. J'ai également utilisé Redux toolkit pour gérer l'authentification utilisateur enregistré dans le back-end, et la modification de son pseudo sur son espace. J'ai aussi appris à rédiger une documentation swagger et intégré les principes du Green code dans cette appli.",
+          "imageSrc": "https://i.imgur.com/Cuql6nC.jpg",
           "url": "https://argent-bank-app.vercel.app/"
       },
       {
           "id": "2",
           "title": "724events",
           "description": "Débugger le site d'une agence d'évènementiel",
-          "imageSrc": "https://i.imgur.com/FVvQHmF.png",
+          "details": "Dans ce projet il s'agissait de débugger le site d'une agence évènementielle en reprenant le code laissé avec des erreurs. Pour cela j'ai utilisé des test unitaires et ai pu rédiger un cahier de recette pour représenter tous les sénarios qui fonctionnent après correction du site.",
+          "imageSrc": "https://i.imgur.com/zGXcby5.jpg",
           "url": "https://724events-app.vercel.app/"
       },
       {
           "id": "3",
           "title": "Nina Carducci",
           "description": "Optimiser le référencement d'un site de photographe",
-          "imageSrc": "https://i.imgur.com/LmLU2cB.png",
+          "details": "Pour une photographe professionelle j'ai été appelée ici à optimiser son site internet. Pour cela j'ai utilisé les outils Lighthouse et Wave pour l'optimisation globale et le SEO. Il a fallu mettre en place le référencement local avec Schema.org, ajouter les metas pour les réseaux sociaux et améliorer l'accessibilité du site.",
+          "imageSrc": "https://i.imgur.com/nJJvOo0.jpg",
           "url": "https://lisadep.github.io/Nina_Carducci/"
       },
       {
           "id": "4",
           "title": "Kaza",
           "description": "Créer une application web de location immobilière avec React",
-          "imageSrc": "https://i.imgur.com/NHrQNaL.png",
-          "url": "https://github.com/Lisadep/Kaza"
+          "details": "Sur cette application de location immobilière, j'ai appris à utiliser le framework React et gérer une application one page avec React router. Un carousel et des animations CSS avait été aussi prévues.",
+          "imageSrc": "https://i.imgur.com/NBTMTnB.jpg",
+          "url": "https://kaza-app.netlify.app/"
       },
       {
           "id": "5",
           "title": "Sophie Bluel",
-          "description": "Créer une page web dynamique avec JavaScript",
-          "imageSrc": "https://i.imgur.com/huRbykg.png",
+          "description": "Créez une page web dynamique avec JavaScript",
+          "details": "Dans la conception de ce portfolio pour une architecte d'intérieur j'ai utilisé Javascript pour ajouter ou supprimer dynamiquement les travaux à l'aide d'appels à l'API avec fetch dans une modal en me servant de la documentation swagger ainsi que la connexion/déconnexion de l'architecte pour gérer ses travaux.",
+          "imageSrc": "https://i.imgur.com/K5e79rS.jpg",
           "url": "https://lisadep.github.io/Sophie_Bluel/FrontEnd/"
       },
       {
           "id": "6",
           "title": "Print It",
           "description": "Premiers pas sur le langage JavaScript",
-          "imageSrc": "https://i.imgur.com/rYvdlBJ.png",
+          "details": "Print it était au départ un site statique représentant une petite imprimerie familiale. J'ai abordé le langage Javascript et ai été chargée de créer un carousel dynamique.",
+          "imageSrc": "https://i.imgur.com/FHMthhM.jpg",
           "url": "https://lisadep.github.io/Print-it/"
       },
       {
           "id": "6ddd76bb-90ea-4861-8f7f-ed5d76791b17",
           "title": "Ohmyfood",
           "description": "Améliorer l'interface d'un site mobile avec des animations CSS",
-          "imageSrc": "https://i.imgur.com/NDUQnbL.png",
+          "details": "Ce projet concernant la réservation de plats en lignes m'a permis de développer un site en mobile first et responsive. A partir de maquettes et du prototype du site, je devais l'intégrer en incluant des animations CSS et utiliser Sass.",
+          "imageSrc": "https://i.imgur.com/rDfgY7Z.jpg",
           "url": "https://lisadep.github.io/ohmyfood/"
       },
       {
           "id": "ad1fb24a-14dd-44df-a581-57e0a539ff1f",
           "title": "Booki",
           "description": "Créer la page d'accueil d'une agence de voyage avec HTML & CSS",
-          "imageSrc": "https://i.imgur.com/PsSCjpr.png",
+          "details": "Développement d'un site d'hébergements et d'activités dans une ville au choix. A partir de maquettes Figma, j'ai été chargée d'intégrer l'interface du site avec du code HTML et CSS et des images, sur desktop, tablette et mobile.",
+          "imageSrc": "https://i.imgur.com/xe7SRII.jpg",
           "url": "https://lisadep.github.io/Booki/"
       }
   ],
@@ -108,7 +116,12 @@
   "aboutpara": "Je m'appelle Lisa de Pierrepont, et je suis une intégratrice web passionnée. J'ai suivi une formation chez OpenClassrooms pour acquérir les compétences nécessaires dans ce domaine. Mon parcours m'a permis de développer des compétences en HTML, CSS, JavaScript et d'autres technologies web essentielles. Je suis toujours à l'affût des dernières tendances et des meilleures pratiques en matière de conception web, et je suis enthousiaste à l'idée de contribuer à la création de sites web attrayants et fonctionnels.",
   "resume": {
       "tagline": "Issue d'une formation d'intégrateur web",
-      "description": "Les missions types que j'ai effectué : \n- Créer une application web complète et responsive pour permettre à l'entreprise ou au client de vendre ses produits et services en ligne, sur tous types d'appareils.\n- Dynamiser des pages web pour mieux mettre en valeur les produits et service de l'entreprise ou du client.\n- Créer des interfaces communiquant avec le back-end du site pour élaborer des applications dynamiques et permettre aux clients de s'identifier sur le site.\n- Optimiser les performances et réaliser la maintenance de sites web déjà existants pour permettre leur fonctionnement optimal et une bonne visibilité sur les moteurs de recherche.\n- Gérer un projet web de A à Z : du chiffrage et découpage des tâches du projet à la présentation de la solution, en passant par la rédaction des spécifications techniques.",
+      "description": "J'ai accompli diverses missions, notamment : ",
+      "experienceOne": "- Créer une application web complète et responsive pour permettre à l'entreprise ou au client de vendre ses produits et services en ligne, sur tous types d'appareils.",
+      "experienceTwo": "- Dynamiser des pages web pour mieux mettre en valeur les produits et service de l'entreprise ou du client.",
+      "experienceThree": "- Créer des interfaces communiquant avec le back-end du site pour élaborer des applications dynamiques et permettre aux clients de s'identifier sur le site.",
+      "experienceFour": "- Optimiser les performances et réaliser la maintenance de sites web déjà existants pour permettre leur fonctionnement optimal et une bonne visibilité sur les moteurs de recherche.",
+      "experienceFive": "- Gérer un projet web de A à Z : du chiffrage et découpage des tâches du projet à la présentation de la solution, en passant par la rédaction des spécifications techniques.",
       "experiences": [
           {
               "id": "1",
@@ -128,12 +141,12 @@
       "education": {
           "universityName": "OpenClassrooms",
           "universityDate": "2023",
-          "universityPara": "L'intégrateur Web est chargé d'intégrer les éléments visuels dans les pages d'un site web pour créer une interface harmonieuse, lisible et facilement navigable. Il a de solides connaissances des langages de programmation pour pouvoir afficher le plus fidèlement possible le design graphique sur tous types de navigateurs et tailles d'écrans."
+          "universityPara": "Durant cette formation, j'ai appris à incorporer les éléments visuels dans les pages d'un site web, afin de créer une interface qui soit à la fois agréable, facile à lire et simple à naviguer. On m'a enseigné à utiliser des langages de programmation pour m'assurer que le design graphique s'affiche de manière cohérente sur différents navigateurs et tailles d'écrans. En somme je suis maintenant capable de créer une expérience utilisateur harmonieuse et responsive."
       },
       "languages": [
           "Javascript",
           "HTML5",
-          "CSS"
+          "CSS3"
       ],
       "frameworks": [
           "React",
@@ -142,7 +155,9 @@
       ],
       "others": [
           "Figma",
-          "Postman"
+          "Sass",
+          "SEO",
+          "Redux"
       ]
   }
 }
